@@ -1,12 +1,10 @@
-The first step in running a Cypress test is running Cypress, which you can do by opening the command line & running `npx cypress open`. A window that looks like this will open in your default browser:
+The first step in running a Cypress test is running Cypress, which you can do by opening the command line, navigating to the `cypress_assessment` folder, and running `npx cypress open`. A window that looks like this will open in your default browser:
 
 ![running_test1](https://user-images.githubusercontent.com/3933061/224732094-80cbd037-414a-4212-b753-084605d17471.png)
-
 
 Choose the E2E Testing option, then choose your preferred browser.
 
 ![running_test2](https://user-images.githubusercontent.com/3933061/224732281-6bb46259-5a26-47fd-9264-62b4ea5411a1.png)
-
 
 You'll be redirected to a directory contains all of your `e2e` tests. Click `new_contact.cy.js`, and the tests in that file will run automatically (note: the tests in the aforementioned file will all fail; this is expected).
 
